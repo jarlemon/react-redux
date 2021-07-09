@@ -29,6 +29,7 @@ export function pureFinalPropsSelectorFactory(
   let dispatchProps
   let mergedProps
 
+  // 第一次访问时，合并props
   function handleFirstCall(firstState, firstOwnProps) {
     state = firstState
     ownProps = firstOwnProps

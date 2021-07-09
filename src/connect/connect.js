@@ -56,8 +56,8 @@ export function createConnect({
     mergeProps,
     {
       pure = true,
-      areStatesEqual = strictEqual,
-      areOwnPropsEqual = shallowEqual,
+      areStatesEqual = strictEqual, // 严格比较是否相等
+      areOwnPropsEqual = shallowEqual, // 浅比较
       areStatePropsEqual = shallowEqual,
       areMergedPropsEqual = shallowEqual,
       ...extraOptions

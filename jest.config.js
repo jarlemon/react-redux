@@ -4,7 +4,7 @@ const defaults = {
   testURL: 'http://localhost'
 }
 
-const testFolderPath = folderName => `<rootDir>/test/${folderName}/**/*.js`
+const testFolderPath = folderName => `<rootDir>/testDemo/${folderName}/**/*.js`
 
 const NORMAL_TEST_FOLDERS = ['components', 'hooks', 'integration', 'utils']
 
